@@ -1,0 +1,35 @@
+<!doctype html>
+<head>
+<style>
+  h1 {
+    border: 1px solid rgb(50%, 75%,30%);
+    margin: 0;
+    padding: .25em 10px;
+  }
+  #cats h1 {
+  border: none;
+  }
+  
+  img {
+  max width: 100%
+  }
+
+img.aside {
+  width: 30%;
+  margin-right: 10px;
+  float: left;
+}
+
+
+
+</style>
+</head>
+<body>
+<h1> hello part timers</h1>
+<p>sjf,bjslbfjlbfjlnflksdnfkdsnjfdmsfnlksfnksd</p>
+<section id="cats">
+<h1>Cats</h1>
+<img class="aside" src="http://exmoorpet.com/wp-content/uploads/2012/08/cat.png">
+<p> dsjhkfbkjhesbfjkbefjbsjfbhdjskbfdsjfbjskbhfjebfjkhbefjkdsbfjdsbfhskjfhbhfjhfkjfhkjffjknfjdkhfkdnfjkdhfksdhjfh</p>
+
+</section>

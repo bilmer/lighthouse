@@ -1,0 +1,50 @@
+<!doctype html>
+ <div class="row">
+
+        <div class="col-md-6 col-md-offset-3">
+
+            <form role="form" class="survey-form" method="POST" action="/cart/survey">
+
+                <div class="form-group">
+
+                    <label for="field1" class="control-label" data-barley="soaddress_title" data-barley-editor="simple" style="margin-bottom:25px; margin-top:25px">Please enter how many pads, tampons and pantiliners you would like (max 25)</label>
+                    <br>
+
+                    <select name="select">
+                      <option value="value1" selected></option> 
+                      <option value="value2">12 Tampons & 13 Pads</option>
+                      <option value="value3"> 13 Tampons, 12 Pads
+                      <option value="value3">All Tampons</option>
+                      <option value="value4">All Pads</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <label for="field2" class="control-label" data-barley="soaddress_title" data-barley-editor="simple" style="margin-bottom:25px; margin-top:25px">Please specify brand/size of pads (if none, leave blank)</label>
+                    <br>
+                    
+                    <textarea type="text" name="mf:cart.survey.pad_brand_size.string" rows="5" class="form-control text-center" id="field2"></textarea>
+                    <br>
+
+              
+                  <label for="field3" class="control-label" data-barley="soaddress_title" data-barley-editor="simple" style="margin-bottom:25px; margin-top:25px">Please specify brand/size of tampons (If none, leave blank)</label>
+
+                    <textarea type="text" name="mf:cart.survey.tamp_brand_size.string" rows="5" class="form-control text-center" id="field3"></textarea>
+
+                  
+                  
+                  <label for="field4" class="control-label" data-barley="soaddress_title" data-barley-editor="simple" style="margin-bottom:25px; margin-top:25px">Please specify brand/size of pantiliners (if none, leave blank)</label>
+
+                    <textarea type="text" name="mf:cart.survey.liners_brand_size.string" rows="5" class="form-control text-center" id="field4"></textarea>
+
+                  
+                  
+                  
+                  <label for="field5" class="control-label" data-barley="soaddress_title" data-barley-editor="simple" style="margin-bottom:25px; margin-top:25px">Please enter the first day of your last period</label>
+
+                    <textarea type="text" name="mf:cart.survey.first_day.string" rows="5" class="form-control text-center" id="field5"></textarea>
+
+                  
+                  
+                  <label for="field6" class="control-label" data-barley="soaddress_title" data-barley-editor="simple" style="margin-bottom:25px; margin-top:25px">How frequent is your period?</label>
+

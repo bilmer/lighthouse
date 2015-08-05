@@ -1,0 +1,28 @@
+<!doctype html>
+<head>
+<<link rel="stylesheet" href="http://lighthouse.jquerycentral.com/css/blog-pink.css">>
+<title></title>
+</head>
+<body>
+<header>
+<h1>Bilmer's Blog</h1>
+</header>
+<section>
+<header>
+<h2>I built a webpage</h2>
+<h3>July 21st, 2015</h3>
+<h4>Jessica Bilmer</h4>
+<article>
+<p>I'm really excited to be able to manage and build websites so I can bring to life the ideas I have for start ups and online business platforms </p>
+</article>
+</header></section>
+<aside>
+<section>
+<h4>WIDGET</h4>
+</section>
+<section> 
+<h4>WIDGET</h4>
+</section>
+</aside>
+</body>
+
